@@ -1,3 +1,3 @@
 # Kokoa Coding
 
-Start!
+Start! 2021/09/30~
