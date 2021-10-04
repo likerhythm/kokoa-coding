@@ -39,5 +39,36 @@ block: 세로로 배열되는 거. 옆에 아무것도 올 수 없음
 inline: 가로로도 배열할 수 있는 거. 옆에 뭔가 올 수 있음ex) span, a, image
 
 
+2021/10/04
+span의 display 속성: 속성 값으로 inline, block을 가지고 있음.
+속성값으로 inlilne 또는 block을 정할 수 있음
+
+inline 요소는 높이와 너비가 없음. 따라서 div 요소에 내용이 없고 높이와 너비만 있다면 inline으로 바꿨을 때 보이지 않음
+
+block의 특징 3가지 margin, padding, border
+***중요 margin:은 box의 border(경계)의 바깥에 있는 공간***
+
+margin: 20px 는 위, 아래, 왼, 오 네 방향 모두 적용
+margin: 20px 15px 는 순서대로 상하, 좌우에 적용
+margin: 20px 5px 12px 9px 는 순서대로 위, 오, 아래, 왼에 적용(시계방향)
+
+div와 body의 위아래 경계가 같다면 위아래의 margin이 하나가 됨.(좌우는 해당 안댐) = collapsing margins
+
+***padding은 box의 경계로 부터 안에 있는 공간***
+
+태그 기반이 아닌 id 기반으로 css 적용하는 법:
+# id{} <!--<= 이렇게 적으면 됨-->
+
+***border은 box의 경계***
+border: 2px solid black
+border: 굵기 border-style 색
+*{
+
+} <=이 말은 모든 요소에 적용, 즉 block뿐만 아니라 inline에도 적용
+모든 요소에 적용하고 하나에만 다른 style을 적용하려면 border: border-style만 적용함
+
+
+
+
 
 
