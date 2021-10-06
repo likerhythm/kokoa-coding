@@ -67,7 +67,20 @@ border: 굵기 border-style 색
 } <=이 말은 모든 요소에 적용, 즉 block뿐만 아니라 inline에도 적용
 모든 요소에 적용하고 하나에만 다른 style을 적용하려면 border: border-style만 적용함
 
+2021/10/06
+**inline은 padding은 상하좌우 모두 가지지만 margin은 좌우만 가질 수 있음**
+따라서 inline 요소에 상하 margin을 가지고 싶다면 block으로 바꿔야함
 
+class는 id와 다르게 여러 태그에서 사용가능
+.class 이름{
+속성
+}
+이렇게 사용
+id보다는 class가 자유로움
+
+inline-block: inline 요소지만 높이와 너비를 가지고 margin으로 상하를 가짐
+하지만 사이사이 빈 공간이 생기는게 단점
+창 크기가 달라지면 영향을 받음
 
 
 
