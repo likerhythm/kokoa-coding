@@ -73,3 +73,51 @@ RGB 컬러/ rgba(a는 투명도)
 
 color picker(크롬 익스텐션)
 css custom properties
+
+
+2021/10/16Transition
+transition은 state가 없는 요소에 붙여야함
+cubic-bezier: 변화하는 정도를 커스텀 할 수 있음
+
+transform: 요소를 변형할 수 있음(회전, 늘리기, 옮기기), 같은 box 안의 다른 요소들을 변형시키지 않음
+
+애니메이션을 만드는법: 
+<style></style> 안에 생성
+@keyframes (애니메이션 이름){
+    from{
+    ...
+    }
+    to{
+    ...
+    }
+}
+또는
+@keyframes(애니메이션 이름){
+    0%{
+    ...
+    }
+    50%{
+    ...
+    }
+    100%{
+    ...
+    }
+}
+
+
+2021/10/17
+
+Media Queries: 사용자의 스크린의 크기로  css를 변형시켜줌
+마찬가지로 style 태그에 적용
+@media screen and (max-width: 400px):
+{
+    div{
+    ...
+    }
+}
+=> 스크린 너비가 400px보다 작을 때 적용
+min-width, max-width로 범위 적용가능
+한마디로 media의 내용이 참이면 실행
+
+
+**이론 파트 완료**
